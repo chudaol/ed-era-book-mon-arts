@@ -13,9 +13,7 @@
 
 Вітаємо на сторінці  онлайн проекту з розвантаження і осучаснення програм початкової школи. Це спільний проект Міністерства освіти і науки та соціальної платформи [www.ed-era.com](https://www.ed-era.com/).
 
-<div class="fluidMedia">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dxBTgbPOMMo" frameborder="0" allowfullscreen></iframe>
-</div>		
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/dxBTgbPOMMo" frameborder="0" allowfullscreen></iframe></center>
 
 ##Наша мета  {#zvernennya}
 *	започаткувати справжнє публічне обговорення навчальних програм;
