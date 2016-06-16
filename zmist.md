@@ -2,16 +2,17 @@
 
 # Зміст програми
 
-<ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" href="#home">1 клас</a></li>
-<li><a data-toggle="tab" href="#menu1">2 клас</a></li>
-<li><a data-toggle="tab" href="#menu2">3 клас</a></li>
-<li><a data-toggle="tab" href="#menu3">4 клас</a></li>
-</ul>
-
-<div class="tab-content">
-<div id="home" class="tab-pane fade in active">
-<h3><a href="http://mon-arts.ed-era.com/1/1_klas.html">1 клас</a></h3>
+<div>
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">1 клас</a></li>
+    <li role="presentation"><a href="#menu1" aria-controls="menu1" role="tab" data-toggle="tab">2 клас</a></li>
+    <li role="presentation"><a href="#menu2" aria-controls="menu2" role="tab" data-toggle="tab">3 клас</a></li>
+    <li role="presentation"><a href="#menu3" aria-controls="menu3" role="tab" data-toggle="tab">4 клас</a></li>
+  </ul>
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home"><h3><a href="http://mon-arts.ed-era.com/1/1_klas.html">1 клас</a></h3>
 <ul type="disc">
 <li><a href="http://mon-arts.ed-era.com/1/krasa_navkolo_nas.html">Краса навколо нас</a></li>
 <ul type="circle">
@@ -39,9 +40,8 @@
 </ul>
 </ul>
 </div>
-<div id="menu1" class="tab-pane fade">
-<h3><a href="http://mon-arts.ed-era.com/2/2_klas.html">2 клас</a></h3>
-<ul type="disc">
+<div role="tabpanel" class="tab-pane" id="menu1"><h3><a href="http://mon-arts.ed-era.com/2/2_klas.html">2 клас</a></h3>
+    <ul type="disc">
 <li><a href="http://mon-arts.ed-era.com/2/por%D1%83_roku_narodni_svyata.html">Пори року і народні свята</a></li>
 <ul type="circle">
 <li><a href="http://mon-arts.ed-era.com/2/muz%D1%83chne_m%D1%83stetstvo_1.html">Музичне мистецтво</a></li>
@@ -68,9 +68,8 @@
 </ul>
 </ul>
 </div>
-<div id="menu2" class="tab-pane fade">
-<h3><a href="http://mon-arts.ed-era.com/3/3_klas.html">3 клас</a></h3>
-<ul type="disc">
+<div role="tabpanel" class="tab-pane" id="menu2"><h3><a href="http://mon-arts.ed-era.com/3/3_klas.html">3 клас</a></h3>
+    <ul type="disc">
 <li><a href="http://mon-arts.ed-era.com/3/m%D1%83stetski_mandr%D1%83_kazkov%D1%83kh_personazhiv.html">Мистецькі мандри казкових персонажів</a></li>
 <ul type="circle">
 <li><a href="http://mon-arts.ed-era.com/3/muz%D1%83chne_m%D1%83stetstvo_1.html">Музичне мистецтво</a></li>
@@ -97,9 +96,8 @@
 </ul>
 </ul>
 </div>
-<div id="menu3" class="tab-pane fade">
-<h3><a href="http://mon-arts.ed-era.com/4/4_klas.html">4 клас</a></h3>
-<ul type="disc">
+<div role="tabpanel" class="tab-pane" id="menu3"><h3><a href="http://mon-arts.ed-era.com/4/4_klas.html">4 клас</a></h3>
+    <ul type="disc">
 <li><a href="http://mon-arts.ed-era.com/4/my_malovn%D1%83ch%D1%83_svitankov%D1%83_kray.html">Мій мальовничий світанковий край</a></li>
 <ul type="circle">
 <li><a href="http://mon-arts.ed-era.com/4/muz%D1%83chne_m%D1%83stetstvo_1.html">Музичне мистецтво</a></li>
@@ -125,6 +123,7 @@
 <li><a href="http://mon-arts.ed-era.com/4/s%D1%83ntet%D1%83chny_m%D1%83stetstva_4.html">Синтетичні мистецтва</a></li>
 </ul>
 </ul>
+</div>
 </div>
 </div>
 
