@@ -82,3 +82,4 @@
       * [Музичне  мистецтво](4/muzуchne_mуstetstvo_4.md)
       * [Образотворче мистецтво](4/obrazotvorche_mуstetstvo_4.md)
       * [Синтетичні мистецтва](4/sуntetуchny_mуstetstva_4.md)
+      * [t](test.md)
